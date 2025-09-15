@@ -1,0 +1,75 @@
+
+input:focus,
+textarea:focus {
+  border-color: midnightblue;
+  outline: none;
+  box-shadow: 0 0 5px rgba(25, 25, 112, 0.5);
+}
+
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+}
+
+button:hover {
+  background-color: rgb(59, 149, 188);
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: rgb(8, 223, 226);
+  background-color: rgb(135, 240, 166);
+  box-shadow: 0 0 5px 2px midnightblue;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked + label {
+  color: rgb(103, 34, 117);
+  font-weight: bold;
+}
+
+input:first-of-type {
+  border-radius: 1px;
+  border: 2px solid midnightblue;
+}
+
+h1 {
+  max-width: 800px;
+  margin: 20px auto 10px auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: auto;
+  width: 100%;
+  margin-top: 10px;
+}
+
+form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #98f9e9, #c0f7f9);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
