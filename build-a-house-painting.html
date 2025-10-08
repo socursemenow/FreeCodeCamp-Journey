@@ -1,0 +1,93 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="house">
+      <div id="chimney"></div>
+      <div id="roof"></div>
+      <div id="window-1"></div>
+      <div id="window-2"></div>
+      <div id="door"></div>
+    </div>
+  </body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+body{
+  width: 100%;
+  height: 80%;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#house{
+  position: relative;
+  width: 500px;
+  height: 400px;
+  background-color: crimson;
+  border: 9px solid purple;
+  border-radius: 9px; 
+}
+
+#house div{
+  position: absolute;
+}
+
+#chimney{
+  width: 60px;
+  height: 80px;
+  background-color: purple;
+  border: 2px solid goldenrod;
+  top: -80px; right: 100px;
+  z-index: -1;
+}
+
+#roof{
+  width: 100%;
+  height: 80px;
+  background-color: brown;
+  border: 2px solid white;
+  top:0;
+}
+
+#window-1{
+  width: 80px;
+  height: 100px;
+  background-color: yellow;
+  border: 6px solid brown;
+  top: 130px;
+  left:60px;
+}
+
+#window-2{
+  width: 80px;
+  height: 100px;
+  background-color: yellow;
+  border: 6px solid brown;
+  right:60px; top:130px;
+}
+
+#door{
+  width: 120px;
+  height: 180px;
+  background-color: white;
+  border: 6px solid brown;
+  bottom:0;left:190px; right: 180px;
+}
+
+
+** end of styles.css **
+
