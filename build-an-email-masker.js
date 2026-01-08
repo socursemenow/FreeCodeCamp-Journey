@@ -1,4 +1,4 @@
-** start of script.js **
+
 
 function maskEmail(email) {
   // 1. Find the index of the '@' symbol
@@ -25,5 +25,5 @@ function maskEmail(email) {
 const email = "apple.pie@example.com";
 console.log(maskEmail(email));
 
-** end of script.js **
+
 
